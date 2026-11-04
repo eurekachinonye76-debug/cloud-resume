@@ -1,0 +1,43 @@
+/* Target the whole page */
+body {
+    background-color: #0f172a; /* Sleek dark blue/grey background */
+    color: #e2e8f0;            /* Soft off-white text (easier on the eyes) */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    max-width: 800px;          /* Prevents the text from stretching too wide */
+    margin: 40px auto;         /* Centers the resume page on the screen */
+    padding: 0 20px;
+}
+
+/* Style the main headings */
+h1 {
+    color: #38bdf8;            /* Bright Google-blue/cyan accent color */
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+}
+
+h2 {
+    color: #38bdf8;
+    border-bottom: 2px solid #334155; /* Adds a clean separator line under sections */
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+h3 {
+    color: #f8fafc;
+    margin-bottom: 5px;
+}
+
+/* Style the bullet points */
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Make keywords pop */
+strong {
+    color: #60a5fa;            /* Highlights your technical tools in a lighter blue */
+}
