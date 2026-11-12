@@ -30,13 +30,15 @@
 <p>2024 - Present</p>
 <ul>
   <li>Dedicated hundreds of hours to mastering cloud architecture, networking fundamentals, and automated infrastructure deployment.</li>
+</ul>
 <p style="text-align: center; margin-top: 20px; color: #888;">
   Total Resume Views: <span id="visitor-count">Loading...</span>
 </p>
+
 <script>
   async function updateCounter() {
     try {
-      const response = await fetch("https://https://cloud-resume-eukm.onrender.com");
+      const response = await fetch("https://cloud-resume-eukm.onrender.com/visit");
       const data = await response.json();
       document.getElementById("visitor-count").innerText = data.visitor_count;
     } catch (error) {
@@ -47,5 +49,3 @@
 
   updateCounter();
 </script>
-
-</ul>
